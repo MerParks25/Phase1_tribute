@@ -17,6 +17,10 @@ text-align: center;
 #img-div {
     background: white;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Added to stack image and caption vertically */
 }
 p {
     font-size: 0.5em;
