@@ -17,8 +17,9 @@ text-align: center;
 #img-div {
     background: white;
     padding: 10px;
-    flex: display;
+    display: flex; /* Changed from 'flex: display' */
     justify-content: center;
+    align-items: center; /* Added to center items vertically */
 }
 p {
     font-size: 0.5em;
