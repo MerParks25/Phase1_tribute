@@ -17,6 +17,7 @@ text-align: center;
 #img-div {
     background: white;
     padding: 10px;
+    flex: display;
     justify-content: center;
 }
 p {
